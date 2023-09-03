@@ -11,7 +11,7 @@ import SwiftUI
 struct Finding_FalconeApp: App {
     var body: some Scene {
         WindowGroup {
-            OnboardingView()
+            OnboardingView().preferredColorScheme(.light)
         }
     }
 }
