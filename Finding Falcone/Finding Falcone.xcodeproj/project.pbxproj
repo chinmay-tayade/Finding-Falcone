@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		823EDF0D2AA20E650095CDF2 /* Finding_FalconeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823EDF0C2AA20E650095CDF2 /* Finding_FalconeApp.swift */; };
+		823EDF0F2AA20E650095CDF2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823EDF0E2AA20E650095CDF2 /* OnboardingView.swift */; };
+		823EDF112AA20E680095CDF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823EDF102AA20E680095CDF2 /* Assets.xcassets */; };
+		823EDF142AA20E680095CDF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823EDF132AA20E680095CDF2 /* Preview Assets.xcassets */; };
+		823EDF1E2AA20E690095CDF2 /* Finding_FalconeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823EDF1D2AA20E690095CDF2 /* Finding_FalconeTests.swift */; };
+		823EDF282AA20E690095CDF2 /* Finding_FalconeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823EDF272AA20E690095CDF2 /* Finding_FalconeUITests.swift */; };
+		823EDF2A2AA20E690095CDF2 /* Finding_FalconeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823EDF292AA20E690095CDF2 /* Finding_FalconeUITestsLaunchTests.swift */; };
+		823EDF3E2AA25B530095CDF2 /* SelectPlanetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823EDF3D2AA25B530095CDF2 /* SelectPlanetView.swift */; };
+		823EDF402AA264D50095CDF2 /* CustomDropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823EDF3F2AA264D50095CDF2 /* CustomDropdown.swift */; };
+		823EDF422AA2750F0095CDF2 /* CustomDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823EDF412AA2750F0095CDF2 /* CustomDialog.swift */; };
+		823EDF472AA30A6A0095CDF2 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823EDF462AA30A6A0095CDF2 /* SuccessView.swift */; };
+		823EDF4A2AA31A7D0095CDF2 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823EDF492AA31A7D0095CDF2 /* ApiService.swift */; };
+		823EDF4D2AA31BFD0095CDF2 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823EDF4C2AA31BFD0095CDF2 /* AppUtils.swift */; };
+		823EDF4F2AA321940095CDF2 /* ApiModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823EDF4E2AA321940095CDF2 /* ApiModels.swift */; };
+		823EDF522AA332750095CDF2 /* CommonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823EDF512AA332750095CDF2 /* CommonController.swift */; };
+		823EDF552AA335090095CDF2 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823EDF542AA335090095CDF2 /* AppConstants.swift */; };
+		823EDF582AA337260095CDF2 /* SharedPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823EDF572AA337260095CDF2 /* SharedPreferences.swift */; };
+		823EDF5A2AA338400095CDF2 /* EncryptedPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823EDF592AA338400095CDF2 /* EncryptedPreferences.swift */; };
+		823EDF5D2AA3794B0095CDF2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823EDF5C2AA3794B0095CDF2 /* ViewModel.swift */; };
+		823EDF5F2AA3937E0095CDF2 /* CustomToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823EDF5E2AA3937E0095CDF2 /* CustomToast.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		823EDF1A2AA20E690095CDF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 823EDF012AA20E650095CDF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 823EDF082AA20E650095CDF2;
+			remoteInfo = "Finding Falcone";
+		};
+		823EDF242AA20E690095CDF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 823EDF012AA20E650095CDF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 823EDF082AA20E650095CDF2;
+			remoteInfo = "Finding Falcone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		823EDF092AA20E650095CDF2 /* Finding Falcone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finding Falcone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		823EDF0C2AA20E650095CDF2 /* Finding_FalconeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finding_FalconeApp.swift; sourceTree = "<group>"; };
+		823EDF0E2AA20E650095CDF2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		823EDF102AA20E680095CDF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		823EDF132AA20E680095CDF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		823EDF192AA20E690095CDF2 /* Finding FalconeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finding FalconeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		823EDF1D2AA20E690095CDF2 /* Finding_FalconeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finding_FalconeTests.swift; sourceTree = "<group>"; };
+		823EDF232AA20E690095CDF2 /* Finding FalconeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finding FalconeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		823EDF272AA20E690095CDF2 /* Finding_FalconeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finding_FalconeUITests.swift; sourceTree = "<group>"; };
+		823EDF292AA20E690095CDF2 /* Finding_FalconeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finding_FalconeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		823EDF3D2AA25B530095CDF2 /* SelectPlanetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPlanetView.swift; sourceTree = "<group>"; };
+		823EDF3F2AA264D50095CDF2 /* CustomDropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDropdown.swift; sourceTree = "<group>"; };
+		823EDF412AA2750F0095CDF2 /* CustomDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialog.swift; sourceTree = "<group>"; };
+		823EDF462AA30A6A0095CDF2 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		823EDF492AA31A7D0095CDF2 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		823EDF4C2AA31BFD0095CDF2 /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
+		823EDF4E2AA321940095CDF2 /* ApiModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiModels.swift; sourceTree = "<group>"; };
+		823EDF512AA332750095CDF2 /* CommonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonController.swift; sourceTree = "<group>"; };
+		823EDF542AA335090095CDF2 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		823EDF572AA337260095CDF2 /* SharedPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedPreferences.swift; sourceTree = "<group>"; };
+		823EDF592AA338400095CDF2 /* EncryptedPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptedPreferences.swift; sourceTree = "<group>"; };
+		823EDF5C2AA3794B0095CDF2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		823EDF5E2AA3937E0095CDF2 /* CustomToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToast.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		823EDF062AA20E650095CDF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823EDF162AA20E690095CDF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823EDF202AA20E690095CDF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		823EDF002AA20E650095CDF2 = {
+			isa = PBXGroup;
+			children = (
+				823EDF0B2AA20E650095CDF2 /* Finding Falcone */,
+				823EDF1C2AA20E690095CDF2 /* Finding FalconeTests */,
+				823EDF262AA20E690095CDF2 /* Finding FalconeUITests */,
+				823EDF0A2AA20E650095CDF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		823EDF0A2AA20E650095CDF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				823EDF092AA20E650095CDF2 /* Finding Falcone.app */,
+				823EDF192AA20E690095CDF2 /* Finding FalconeTests.xctest */,
+				823EDF232AA20E690095CDF2 /* Finding FalconeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		823EDF0B2AA20E650095CDF2 /* Finding Falcone */ = {
+			isa = PBXGroup;
+			children = (
+				823EDF5B2AA3792D0095CDF2 /* ViewModels */,
+				823EDF562AA336F50095CDF2 /* SessionManager */,
+				823EDF532AA334FC0095CDF2 /* Constants */,
+				823EDF502AA332230095CDF2 /* Controller */,
+				823EDF4B2AA31BE60095CDF2 /* AppUtils */,
+				823EDF482AA31A650095CDF2 /* ApiManager */,
+				823EDF3C2AA2528E0095CDF2 /* Screens */,
+				823EDF392AA24C630095CDF2 /* CustomWidgets */,
+				823EDF0C2AA20E650095CDF2 /* Finding_FalconeApp.swift */,
+				823EDF102AA20E680095CDF2 /* Assets.xcassets */,
+				823EDF122AA20E680095CDF2 /* Preview Content */,
+			);
+			path = "Finding Falcone";
+			sourceTree = "<group>";
+		};
+		823EDF122AA20E680095CDF2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				823EDF132AA20E680095CDF2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		823EDF1C2AA20E690095CDF2 /* Finding FalconeTests */ = {
+			isa = PBXGroup;
+			children = (
+				823EDF1D2AA20E690095CDF2 /* Finding_FalconeTests.swift */,
+			);
+			path = "Finding FalconeTests";
+			sourceTree = "<group>";
+		};
+		823EDF262AA20E690095CDF2 /* Finding FalconeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				823EDF272AA20E690095CDF2 /* Finding_FalconeUITests.swift */,
+				823EDF292AA20E690095CDF2 /* Finding_FalconeUITestsLaunchTests.swift */,
+			);
+			path = "Finding FalconeUITests";
+			sourceTree = "<group>";
+		};
+		823EDF392AA24C630095CDF2 /* CustomWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				823EDF3F2AA264D50095CDF2 /* CustomDropdown.swift */,
+				823EDF412AA2750F0095CDF2 /* CustomDialog.swift */,
+				823EDF5E2AA3937E0095CDF2 /* CustomToast.swift */,
+			);
+			path = CustomWidgets;
+			sourceTree = "<group>";
+		};
+		823EDF3C2AA2528E0095CDF2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				823EDF0E2AA20E650095CDF2 /* OnboardingView.swift */,
+				823EDF3D2AA25B530095CDF2 /* SelectPlanetView.swift */,
+				823EDF462AA30A6A0095CDF2 /* SuccessView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		823EDF482AA31A650095CDF2 /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				823EDF492AA31A7D0095CDF2 /* ApiService.swift */,
+				823EDF4E2AA321940095CDF2 /* ApiModels.swift */,
+			);
+			path = ApiManager;
+			sourceTree = "<group>";
+		};
+		823EDF4B2AA31BE60095CDF2 /* AppUtils */ = {
+			isa = PBXGroup;
+			children = (
+				823EDF4C2AA31BFD0095CDF2 /* AppUtils.swift */,
+			);
+			path = AppUtils;
+			sourceTree = "<group>";
+		};
+		823EDF502AA332230095CDF2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				823EDF512AA332750095CDF2 /* CommonController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		823EDF532AA334FC0095CDF2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				823EDF542AA335090095CDF2 /* AppConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		823EDF562AA336F50095CDF2 /* SessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				823EDF572AA337260095CDF2 /* SharedPreferences.swift */,
+				823EDF592AA338400095CDF2 /* EncryptedPreferences.swift */,
+			);
+			path = SessionManager;
+			sourceTree = "<group>";
+		};
+		823EDF5B2AA3792D0095CDF2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				823EDF5C2AA3794B0095CDF2 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		823EDF082AA20E650095CDF2 /* Finding Falcone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823EDF2D2AA20E690095CDF2 /* Build configuration list for PBXNativeTarget "Finding Falcone" */;
+			buildPhases = (
+				823EDF052AA20E650095CDF2 /* Sources */,
+				823EDF062AA20E650095CDF2 /* Frameworks */,
+				823EDF072AA20E650095CDF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Finding Falcone";
+			productName = "Finding Falcone";
+			productReference = 823EDF092AA20E650095CDF2 /* Finding Falcone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		823EDF182AA20E690095CDF2 /* Finding FalconeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823EDF302AA20E690095CDF2 /* Build configuration list for PBXNativeTarget "Finding FalconeTests" */;
+			buildPhases = (
+				823EDF152AA20E690095CDF2 /* Sources */,
+				823EDF162AA20E690095CDF2 /* Frameworks */,
+				823EDF172AA20E690095CDF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				823EDF1B2AA20E690095CDF2 /* PBXTargetDependency */,
+			);
+			name = "Finding FalconeTests";
+			productName = "Finding FalconeTests";
+			productReference = 823EDF192AA20E690095CDF2 /* Finding FalconeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		823EDF222AA20E690095CDF2 /* Finding FalconeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823EDF332AA20E690095CDF2 /* Build configuration list for PBXNativeTarget "Finding FalconeUITests" */;
+			buildPhases = (
+				823EDF1F2AA20E690095CDF2 /* Sources */,
+				823EDF202AA20E690095CDF2 /* Frameworks */,
+				823EDF212AA20E690095CDF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				823EDF252AA20E690095CDF2 /* PBXTargetDependency */,
+			);
+			name = "Finding FalconeUITests";
+			productName = "Finding FalconeUITests";
+			productReference = 823EDF232AA20E690095CDF2 /* Finding FalconeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		823EDF012AA20E650095CDF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					823EDF082AA20E650095CDF2 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					823EDF182AA20E690095CDF2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 823EDF082AA20E650095CDF2;
+					};
+					823EDF222AA20E690095CDF2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 823EDF082AA20E650095CDF2;
+					};
+				};
+			};
+			buildConfigurationList = 823EDF042AA20E650095CDF2 /* Build configuration list for PBXProject "Finding Falcone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 823EDF002AA20E650095CDF2;
+			productRefGroup = 823EDF0A2AA20E650095CDF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				823EDF082AA20E650095CDF2 /* Finding Falcone */,
+				823EDF182AA20E690095CDF2 /* Finding FalconeTests */,
+				823EDF222AA20E690095CDF2 /* Finding FalconeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		823EDF072AA20E650095CDF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823EDF142AA20E680095CDF2 /* Preview Assets.xcassets in Resources */,
+				823EDF112AA20E680095CDF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823EDF172AA20E690095CDF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823EDF212AA20E690095CDF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		823EDF052AA20E650095CDF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823EDF582AA337260095CDF2 /* SharedPreferences.swift in Sources */,
+				823EDF402AA264D50095CDF2 /* CustomDropdown.swift in Sources */,
+				823EDF3E2AA25B530095CDF2 /* SelectPlanetView.swift in Sources */,
+				823EDF0F2AA20E650095CDF2 /* OnboardingView.swift in Sources */,
+				823EDF552AA335090095CDF2 /* AppConstants.swift in Sources */,
+				823EDF4F2AA321940095CDF2 /* ApiModels.swift in Sources */,
+				823EDF5D2AA3794B0095CDF2 /* ViewModel.swift in Sources */,
+				823EDF4D2AA31BFD0095CDF2 /* AppUtils.swift in Sources */,
+				823EDF522AA332750095CDF2 /* CommonController.swift in Sources */,
+				823EDF5F2AA3937E0095CDF2 /* CustomToast.swift in Sources */,
+				823EDF422AA2750F0095CDF2 /* CustomDialog.swift in Sources */,
+				823EDF5A2AA338400095CDF2 /* EncryptedPreferences.swift in Sources */,
+				823EDF472AA30A6A0095CDF2 /* SuccessView.swift in Sources */,
+				823EDF4A2AA31A7D0095CDF2 /* ApiService.swift in Sources */,
+				823EDF0D2AA20E650095CDF2 /* Finding_FalconeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823EDF152AA20E690095CDF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823EDF1E2AA20E690095CDF2 /* Finding_FalconeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823EDF1F2AA20E690095CDF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823EDF282AA20E690095CDF2 /* Finding_FalconeUITests.swift in Sources */,
+				823EDF2A2AA20E690095CDF2 /* Finding_FalconeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		823EDF1B2AA20E690095CDF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 823EDF082AA20E650095CDF2 /* Finding Falcone */;
+			targetProxy = 823EDF1A2AA20E690095CDF2 /* PBXContainerItemProxy */;
+		};
+		823EDF252AA20E690095CDF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 823EDF082AA20E650095CDF2 /* Finding Falcone */;
+			targetProxy = 823EDF242AA20E690095CDF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		823EDF2B2AA20E690095CDF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		823EDF2C2AA20E690095CDF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		823EDF2E2AA20E690095CDF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Finding Falcone/Preview Content\"";
+				DEVELOPMENT_TEAM = CJA4P86D39;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chinmay.Finding-Falcone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		823EDF2F2AA20E690095CDF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Finding Falcone/Preview Content\"";
+				DEVELOPMENT_TEAM = CJA4P86D39;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chinmay.Finding-Falcone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		823EDF312AA20E690095CDF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CJA4P86D39;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chinmay.Finding-FalconeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finding Falcone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Finding Falcone";
+			};
+			name = Debug;
+		};
+		823EDF322AA20E690095CDF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CJA4P86D39;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chinmay.Finding-FalconeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finding Falcone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Finding Falcone";
+			};
+			name = Release;
+		};
+		823EDF342AA20E690095CDF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CJA4P86D39;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chinmay.Finding-FalconeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Finding Falcone";
+			};
+			name = Debug;
+		};
+		823EDF352AA20E690095CDF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CJA4P86D39;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chinmay.Finding-FalconeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Finding Falcone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		823EDF042AA20E650095CDF2 /* Build configuration list for PBXProject "Finding Falcone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823EDF2B2AA20E690095CDF2 /* Debug */,
+				823EDF2C2AA20E690095CDF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		823EDF2D2AA20E690095CDF2 /* Build configuration list for PBXNativeTarget "Finding Falcone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823EDF2E2AA20E690095CDF2 /* Debug */,
+				823EDF2F2AA20E690095CDF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		823EDF302AA20E690095CDF2 /* Build configuration list for PBXNativeTarget "Finding FalconeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823EDF312AA20E690095CDF2 /* Debug */,
+				823EDF322AA20E690095CDF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		823EDF332AA20E690095CDF2 /* Build configuration list for PBXNativeTarget "Finding FalconeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823EDF342AA20E690095CDF2 /* Debug */,
+				823EDF352AA20E690095CDF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 823EDF012AA20E650095CDF2 /* Project object */;
+}
