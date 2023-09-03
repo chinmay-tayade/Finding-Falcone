@@ -433,7 +433,8 @@ struct SelectPlanetView: View {
         }else if(planet == ""){
             
             showError = true
-            errorMessage = "First select a Planet for Destination 1"
+            errorMessage = "First select a Planet"
+            onCompletion(false)
             
         }else{
             
